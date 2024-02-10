@@ -1,0 +1,33 @@
+Conditional statements are fundamental constructs in programming that allow you to execute different blocks of code based on whether a specified condition evaluates to true or false. These statements provide the ability to create branching logic in your code, enabling it to make decisions and respond accordingly.
+
+If Statement: It executes a block of code if a specified condition is true.
+**//
+if (condition) {
+    // code block to be executed if condition is true
+}
+//**
+
+
+If-Else Statement: It executes one block of code if a specified condition is true and another block of code if the condition is false.
+**//
+if (condition) {
+    // code block to be executed if condition is true
+} else {
+    // code block to be executed if condition is false
+}
+//**
+
+
+If-Else-If Statement (or Else If): It allows you to specify multiple conditions to be checked sequentially. It executes the block of code corresponding to the first true condition encountered.
+**//
+if (condition1) {
+    // code block to be executed if condition1 is true
+} else if (condition2) {
+    // code block to be executed if condition2 is true
+} else {
+    // code block to be executed if none of the conditions are true
+}
+//**
+
+
+
